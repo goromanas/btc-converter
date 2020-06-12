@@ -4,6 +4,8 @@
   "description": "",
   "main": "test.js",
   "scripts": {
+    "webpackBuild": "webpack",
+    "previewDist": "node previewDist",
     "dev": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,17 +20,19 @@
     "axios": "^0.19.2",
     "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^3.0.0",
-    "dotenv-webpack": "^1.7.0",
+    "dotenv-webpack": "^1.8.0",
     "express": "^4.17.1",
-    "fs-extra": "^9.0.0",
+    "fs-extra": "^9.0.1",
     "html-webpack-harddisk-plugin": "^1.0.1",
-    "html-webpack-plugin": "^4.2.0",
+    "html-webpack-plugin": "^4.3.0",
     "immer": "^6.0.3",
     "npm-run-all": "^4.1.5",
     "rc-select": "^11.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-dom-server": "0.0.5",
     "react-markdown": "^4.3.1",
+    "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-select": "^3.1.0",
     "react-tooltip": "^4.2.5",
@@ -38,5 +42,8 @@
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
+  },
+  "devDependencies": {
+    "mini-css-extract-plugin": "^0.9.0"
   }
 }
